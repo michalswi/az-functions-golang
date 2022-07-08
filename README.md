@@ -1,5 +1,7 @@
 ## Azure Functions in Golang
 
+![pipeline](https://github.com/michalswi/az-functions-golang/actions/workflows/pipeline.yml/badge.svg)  
+
 Azure docs are [here](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-other?tabs=go).
 
 This is how I created this repo:
