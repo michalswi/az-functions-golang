@@ -1,8 +1,10 @@
 ## Azure Functions in Golang
 
-![pipeline](https://github.com/michalswi/az-functions-golang/actions/workflows/pipeline.yml/badge.svg)  
+![pipeline](https://github.com/michalswi/az-functions-golang/actions/workflows/pipeline.yml/badge.svg)
 
-Azure docs are [here](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-other?tabs=go).
+
+Using [Custom Handlers](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-other?tabs=go%2Clinux) in Azure Functions you can go with **Golang** or **Rust**.
+
 
 This is how I created this repo:
 

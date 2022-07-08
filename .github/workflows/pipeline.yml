@@ -3,8 +3,14 @@
 
 name: Pipeline for Azure Functions
 
+# on:
+#   [push]
+
 on:
-  [push]
+  push:
+    branches:
+      - main
+      - develop
 
 jobs:
   hello:
