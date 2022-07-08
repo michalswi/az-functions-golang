@@ -28,6 +28,12 @@ jobs:
     - name: Build
       run: make build
 
+    - name: Upload
+      uses: actions/upload-artifact@v2
+      with:
+        name: simplewebs
+        path: ./simplewebs
+
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
